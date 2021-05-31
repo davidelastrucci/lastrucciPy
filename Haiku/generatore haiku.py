@@ -1,3 +1,4 @@
+#Lavoro a cura di Avallone Enrico, Ippolito Gabriele; Lastrucci Davide
 #Per utilizzare il codice è necessario che tutti gli elementi scaricati siano presenti nella cartella  Downloads".
 #("cinq1.txt"; "cinq2.txt"; "sette.txt"; "sfondo.jpg")
 
