@@ -41,7 +41,7 @@ class retta:
 
     def coefficiente_angolare(self):
         if self.__b==0:
-            return f"\nla retta è parallela all'asse y \nil coefficiente non è determinato"
+            return f"\nla retta è parallela all'asse y \nil coefficiente è indeterminato"
         else:
             return f"\nil coefficiente angolare dell'equazione è {-self.__a / self.__b}"
     
