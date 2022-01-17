@@ -9,16 +9,16 @@ class retta:
 
     def implicita(self):
         if self.__a == 0:
-            return f"\nl'equazione in forma implicita è: \n {self.__b}y +{self.__c} = 0"
+            return f"\nl'equazione in forma implicita è: \n {self.__b}y + {self.__c} = 0"
 
         elif  self.__b == 0:
-            return f"\nl'equazione in forma implicita è: \n {self.__a}x +{self.__c} = 0"
+            return f"\nl'equazione in forma implicita è: \n {self.__a}x + {self.__c} = 0"
 
         elif self.__c == 0:
-            return f"\nl'equazione in forma implicita è: \n {self.__a}x +{self.__b} = 0"
+            return f"\nl'equazione in forma implicita è: \n {self.__a}x + {self.__b} = 0"
 
         else:
-            return f"\nl'equazione in forma implicita è: \n {self.__a}x +{self.__b}y +{self.__c} = 0"
+            return f"\nl'equazione in forma implicita è: \n {self.__a}x + {self.__b}y +{self.__c} = 0"
 
     def esplicita(self):
         k = -self.__c / self.__b
