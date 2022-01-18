@@ -42,7 +42,6 @@ for riga in f:
     print(valori)
     coordX.append(int(valori[0])) 
     coordY.append(int(valori[1])) 
-
 f.close()  
 
 print ("X: ",coordX)
